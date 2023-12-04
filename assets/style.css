@@ -1,0 +1,26 @@
+body{
+    height: 100vh;
+    background-image: url(./img/acdd06498d7bbfca9ec951244b97f997.jpg);
+    
+}
+
+h1,h2{
+    color: white;
+}
+
+#myImg{
+    width: 600px;
+    border-radius: 8px;
+}
+p{
+    color: white;
+    font-size: 28px;
+}
+
+#form{
+    background-color: rgba(131, 128, 128, 0.411);
+    
+}
+.form-label{
+    color: white;
+}
