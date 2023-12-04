@@ -24,3 +24,8 @@ p{
 .form-label{
     color: black;
 }
+
+p.col-6.mb-3, div.col-6.mb-3 {
+    font-size: 18px;
+    padding: 18px;
+}
