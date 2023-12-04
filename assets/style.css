@@ -1,11 +1,11 @@
 body{
     height: 100vh;
-    background-image: url(./img/acdd06498d7bbfca9ec951244b97f997.jpg);
+    /* background-image: url(./img/acdd06498d7bbfca9ec951244b97f997.jpg); */
     
 }
 
 h1,h2{
-    color: white;
+    color: black;
 }
 
 #myImg{
@@ -13,7 +13,7 @@ h1,h2{
     border-radius: 8px;
 }
 p{
-    color: white;
+    color: black;
     font-size: 28px;
 }
 
@@ -22,5 +22,5 @@ p{
     
 }
 .form-label{
-    color: white;
+    color: black;
 }
