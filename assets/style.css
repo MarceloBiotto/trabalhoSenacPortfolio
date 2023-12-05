@@ -125,6 +125,10 @@ p.mb-0{
     animation: colors 15s ease infinite;
 }
 
+.texto-carrosel{
+    color: white;
+}
+
 @keyframes colors {
     0%{
         background-position: 0% 50%;
@@ -166,4 +170,16 @@ p.mb-0{
     .bi{
         font-size: 20px;
     }
+    .texto-profissional{
+        font-size: 12px;
+    }
+    .texto-carrosel{
+        font-size: 12px;
+    }
+}
+
+.imagem-carrossel{
+    width: 80px;
+    padding: 8px;
+
 }
