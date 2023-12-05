@@ -36,9 +36,10 @@ h1,h2{
 .morphing{
     position: relative;
     background-color: beige;
-    color: white;
+    /* color: white; */
     filter: contrast(25) blur(1px);
     margin-bottom: 45px;
+    padding: 12px;
 }
 
 
