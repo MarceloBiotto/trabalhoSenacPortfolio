@@ -4,12 +4,7 @@ body{
     background-color: beige;
 }
 
-*,*::before, *::after{
-    padding: 0;
-    margin: 0 auto;
-    box-sizing: border-box;
-    
-}
+
 h1,h2{
     color: black;
 }
@@ -91,6 +86,16 @@ h1,h2{
 p{
     color: black;
     font-size: 28px;
+}
+
+#carouselExampleCaptions{
+    background-color: red;
+    background-image: url(./img/eu3.jpg);
+    background-size: cover;
+    background-position: 0% 20%;
+    background-repeat: no-repeat;
+    width: 100%;
+
 }
 
 #form{
