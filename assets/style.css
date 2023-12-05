@@ -25,8 +25,9 @@ h1,h2{
     animation: animate 5s linear infinite;
 }
 
-.bi, .bi-linkedin{
-    width: 20px;
+.bi{
+    font-size: 30px;
+    color: darkblue;
 }
 #myImg{
     width: 600px;
