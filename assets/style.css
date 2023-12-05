@@ -1,6 +1,5 @@
 body{
     height: 100vh;
-    /* background-image: url(./img/acdd06498d7bbfca9ec951244b97f997.jpg); */
     background-color: beige;
 }
 
@@ -36,7 +35,7 @@ h1,h2{
 .morphing{
     position: relative;
     filter: contrast(25) blur(1px);
-    margin: 25px 45px;
+    margin: 35px 45px;
     padding-top: 28px;
 }
 
@@ -159,3 +158,12 @@ p.mb-0{
 }
 
 
+@media screen and (min-width: 320px) and (max-width: 480px) {
+
+    .titulo__principal, .texto__principal{
+        font-size: 12px;
+    }
+    .bi{
+        font-size: 20px;
+    }
+}
