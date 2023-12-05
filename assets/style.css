@@ -4,6 +4,12 @@ body{
     background-color: beige;
 }
 
+*,*::before, *::after{
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+    
+}
 h1,h2{
     color: black;
 }
@@ -29,6 +35,55 @@ h1,h2{
     font-size: 30px;
     color: darkblue;
 }
+.bi:hover{
+    color: darkred;
+}
+.morphing{
+    position: relative;
+    background-color: beige;
+    color: white;
+    filter: contrast(25) blur(1px);
+    margin-bottom: 45px;
+}
+
+
+.word{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: word 12s infinite ease-in-out;
+}
+
+.word:nth-child(1){
+    animation-delay:-16s ;
+}
+.word:nth-child(2){
+    animation-delay:-14s ;
+}
+.word:nth-child(3){
+    animation-delay:-12s ;
+}
+.word:nth-child(4){
+    animation-delay:-10s ;
+}
+.word:nth-child(5){
+    animation-delay:-8s ;
+}
+
+
+
+@keyframes word{
+    0%,5%,100%{
+        filter: blur(0px);
+        opacity: 1;
+    }
+    20%,80%{
+        filter: blur(1em);
+        opacity: 0;
+    }
+}
+
 #myImg{
     width: 600px;
     border-radius: 8px;
@@ -98,3 +153,5 @@ p.mb-0{
 
     }
 }
+
+
