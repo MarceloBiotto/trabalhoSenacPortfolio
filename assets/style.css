@@ -110,6 +110,9 @@ p{
     
 
 }
+.imagem-about{
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.288);
+}
 .form-label{
     color: black;
 }
