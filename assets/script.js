@@ -20,15 +20,15 @@ document.getElementById('formulario').addEventListener('submit', function(event)
 
   emailjs.sendForm(serviceID, templateID, this)
     .then(() => {
-      btn.value = 'seending message';
-      alert('Message submit!');
+      btn.value = 'enviando mensagem';
+      alert('Mensagem enviada');
 
       document.getElementById('depoimento').value = '';
       document.getElementById('from_name').value = '';
       document.getElementById('from_email').value = '';
-      document.getElementById('button').value = 'seending new message';  
+      document.getElementById('button').value = 'enviar nova mensagem';  
     }, (err) => {
-      btn.value = 'Send Email';
+      btn.value = 'Enviar Email';
       alert(JSON.stringify(err));
     });
 });
