@@ -113,7 +113,14 @@ p.col-6.mb-3, div.col-6.mb-3 {
 p.mb-0{
     font-size: 16px;
 }
+.educacao{
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.288);
+    margin: 12px auto;
+}
 
+.texto-about{
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.288);
+}
 
 .gradient{
     display: flex;
@@ -165,13 +172,13 @@ p.mb-0{
 
 @media screen and (min-width: 320px) and (max-width: 480px) {
 
-    .titulo__principal, .texto__principal{
+    .titulo__principal, .texto__principal, .texto-profissional{
         font-size: 12px;
     }
     .bi{
         font-size: 20px;
     }
-    .texto-profissional{
+    .texto-about{
         font-size: 12px;
     }
     .texto-carrosel{
