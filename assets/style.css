@@ -143,7 +143,7 @@ p.mb-0{
     width: 100vw;
     background: linear-gradient(45deg, #084177, #687466, #cd8d7b, #fbc490);
     background-size: 300% 300%;
-    animation: colors 15s ease infinite;
+    animation: colors 6s ease infinite;
 }
 
 .texto-carrosel{
