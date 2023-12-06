@@ -1,21 +1,5 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 const btn = document.getElementById('button');
+
 
 
 document.getElementById('formulario').addEventListener('submit', function(event) {
@@ -24,7 +8,7 @@ document.getElementById('formulario').addEventListener('submit', function(event)
  
   const depoimento = document.getElementById('depoimento').value;
 
-  if (!depoimento.trim()) {
+  if (!depoimento.trim() ) {
     alert('Por favor, preencha o campo depoimento antes de enviar.');
     return; 
   }
