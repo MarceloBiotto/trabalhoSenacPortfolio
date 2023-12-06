@@ -4,7 +4,10 @@ body{
     font-family: 'Hedvig Letters Serif', serif;
     
 }
+.nav-link:hover{
+    color: darkred;
 
+}
 
 h1,h2{
     color: black;
