@@ -2,7 +2,8 @@
 
 
 Trabalho feito para a conclusão do módulo de bootstrap.
-
+✨Pode ser acessado também através do link feito para o vercel:
+trabalho-senac-portfolio.vercel.app   
 
 ## 🚀 Começando
 
